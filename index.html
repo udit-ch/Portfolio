@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Udit C. — Portfolio</title>
+  <meta name="description" content="Udit C. — Computer Science student at GSU. Projects, experience, and contact." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">UC</a>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a class="cta" href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open navigation">&#9776;</button>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Udit <span class="accent">C.</span></h1>
+        <p class="tagline">CS @ Georgia State — I build simple, clean tools with <span class="accent">Python</span>, <span class="accent">Java</span>, and <span class="accent">C++</span>.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="mailto:uditchan@gmail.com">Email me</a>
+          <a class="btn ghost" href="https://github.com/udit-ch" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <p class="muted">A few things I’ve built recently.</p>
+      </div>
+      <div class="grid projects">
+        <!-- Project Card -->
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h3>Student Information Manager</h3>
+            <p>CLI app to manage student records with auth, input validation, and SQLite persistence.</p>
+            <ul class="pill-row">
+              <li>Python</li><li>SQLite</li><li>OOP</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="text-link">Repo →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h3>RISC‑V Instruction Simulator</h3>
+            <p>Implements a subset of RISC‑V to visualize registers, memory, and pipeline flow.</p>
+            <ul class="pill-row">
+              <li>C++</li><li>RISC‑V</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="text-link">Repo →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h3>Portfolio Website</h3>
+            <p>This website. Built from scratch with simple HTML/CSS/JS, deployed on GitHub Pages.</p>
+            <ul class="pill-row">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="text-link">Repo →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <h3>Manager / Certified Pharmacy Technician <span class="muted">— CVS Health</span></h3>
+            <p class="muted">Mar 2023 – Present • Johns Creek, GA</p>
+            <ul>
+              <li>Led daily operations, coached team members, and improved handling of claims and records.</li>
+              <li>Developed strong customer experience under high throughput.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <h3>Vice President <span class="muted">— Women in Technology @ GSU</span></h3>
+            <p class="muted">2023 – 2024</p>
+            <ul>
+              <li>Organized workshops, mentorship, and sponsorships to support students entering tech.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about-wrap reveal">
+        <p>I’m a Computer Science student at Georgia State University (’26). I enjoy building clean, purposeful tools and learning systems-level concepts like computer architecture and assembly. I’ve worked in high-responsibility environments and bring the same reliability to software projects.</p>
+        <ul class="pill-row">
+          <li>Python</li><li>Java</li><li>C++</li><li>RISC‑V</li><li>ARM64</li><li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Want to collaborate or chat? Reach out.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="mailto:uditchan@gmail.com">
+          <div class="icon">@</div>
+          <div>
+            <h3>Email</h3>
+            <p>uditchan@gmail.com</p>
+          </div>
+        </a>
+        <a class="contact-card reveal" href="https://github.com/udit-ch" target="_blank" rel="noopener">
+          <div class="icon">GH</div>
+          <div>
+            <h3>GitHub</h3>
+            <p>github.com/udit-ch</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Udit C.</span>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
